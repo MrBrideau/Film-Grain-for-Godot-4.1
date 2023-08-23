@@ -1,11 +1,12 @@
 /*
-Film Grain post-process shader v1.1	
-Martins Upitis (martinsh) devlog-martinsh.blogspot.com
+Originally was Film Grain post-process shader v1.1	
+Made by Martins Upitis (martinsh) devlog-martinsh.blogspot.com
 2013
 
-imported to Godot by spl!te 2017
+Originally imported to Godot by spl!te 2017, now ported over to Godot 4.1 2023
 
 --------------------------
+ORIGINAL DESCRIPTION:
 This work is licensed under a Creative Commons Attribution 3.0 Unported License.
 So you are free to share, modify and adapt it for your needs, and even use it for commercial use.
 I would also love to hear about a project you are using it.
@@ -21,7 +22,6 @@ http://machinesdontcare.wordpress.com/2009/06/25/3d-perlin-noise-sphere-vertex-s
 shader_type canvas_item;
 uniform vec2 screen_size;
 uniform bool enabled = false;
-render_mode blend_add;
 uniform float grain_amount = 0.05; //grain amount
 uniform bool colored = false; //colored noise?
 uniform float color_amount = 0.6;
