@@ -20,6 +20,7 @@ http://machinesdontcare.wordpress.com/2009/06/25/3d-perlin-noise-sphere-vertex-s
 */
 
 shader_type canvas_item;
+render_mode blend_add;
 uniform vec2 screen_size;
 uniform bool enabled = false;
 uniform float grain_amount = 0.05; //grain amount
